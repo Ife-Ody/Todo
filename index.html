@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To-do List App</title>
+    <!--Google Font Icons, Materialise CSS, My CSS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--link type="text/css" rel="stylesheet" href="Resources/materialise/css/materialize.min.css" media="screen,projection" /-->
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <!--Materialise JavaScript, Font Awesome icons-->
+    <script type="text/javascript" src="scripts/main.js"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+        <header>
+            <h1>To-Do List</h1>
+        </header>
+        <div class="appContainer flex-container">
+            <div class="heading">
+                <div class="input-field">
+                    <input type="text" placeholder="Enter an Activity..." id="item">
+                    <button id="add">+</button>
+                </div>
+            </div>
+            <div class="activeItems">
+                <ul class="todo" id="undone"></ul>
+                <ul class="todo" id="done"></ul>
+            </div>
+        </div>
+        <footer>
+            <p>Designed by <a href="https://github.com/Ife-Ody" target="_blank">Ifeoluwa Odubela</a> &copy; 2018</p>
+        </footer>
+    </div>
+
+</html>
